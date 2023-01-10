@@ -16,3 +16,14 @@ cd skriptimine
 
 d) tekita lokaalne repositoorium sit süsteemi jaojs antud kaustas
 git init_
+
+remote seadistamine:
+e) git remote add nimi github.aadress
+git remote add skriptimine git@github.com:kasutajanimi/reponimi.git
+
+f)git remote kontroll
+git remote v
+
+git add failinimi
+git commit -m “muudatuse kirjeldus” 
+git push -u origin master
