@@ -26,4 +26,4 @@ git remote v
 
 git add failinimi
 git commit -m “muudatuse kirjeldus” 
-git push -u origin master
+git push -uf origin master
