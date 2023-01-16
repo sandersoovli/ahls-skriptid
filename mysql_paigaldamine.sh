@@ -16,10 +16,10 @@ if [ $MYSQL -eq 0 ]; then
 	echo "mysql on paigaldatud"
 	# lisame võimalus kasutada mysql käsk ilma kasutaja ja parooli lisamiseta
 	touch $Home/ .my.cnf #lisame vajalik konfiguratsiooni fail antud kasutaja kodukausta
-	echo "[client" >> $HOME/ .my.cnf
-	echo "host = localhost" >> $Home/ .my.cnf
-	echo "user = root" >> $HOME/ .my.cnf
-	echo "password = qwerty" >> $HOME/ .my.cnf
+	echo "[client]" >> $HOME/.my.cnf
+	echo "host = localhost" >> $Home/.my.cnf
+	echo "user = root" >> $HOME/.my.cnf
+	echo "password = qwerty" >> $HOME/.my.cnf
 #kui MYSQL muutuja väärtus võrdub 1-ga
 elif [ $MYSQL -eq 1 ]; then
 	# siis ok installed on leitud 1 kord
