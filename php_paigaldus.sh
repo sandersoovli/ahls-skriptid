@@ -18,7 +18,7 @@ elif [ $PHP -eq 1 ]; then
 	#ja teenus on juba paigaldatud
 	echo "php on juba paigaldatud"
 	#kontrollime olemasolu
-	which php
+	php -v
 #lõpetame tingimuslause
 fi
 #skirpti lõpp
